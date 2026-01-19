@@ -12,7 +12,7 @@ const HomePage = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="Hero h-96 w-full relative my-2 rounded-2xl overflow-hidden">
+      <section id="Hero" className="h-96 w-full relative my-2 rounded-2xl overflow-hidden">
         <img
           src={HeroImg}
           alt="Hero"

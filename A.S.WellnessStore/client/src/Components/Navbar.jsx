@@ -65,7 +65,7 @@ const Hamburger = () => {
       </buthrefn>
       <div
         id="Hamburger"
-        className="absolute z-30 right-0  w-2 hrefp-0 md:hidden overflow-hidden opacity-1 transition-all duration-300"
+        className="absolute z-30 right-0 top-0  w-2 md:hidden overflow-hidden opacity-1 transition-all duration-300"
       >
         <ul className="nav-as  flex flex-col gap-5 sm:gap-6 text-lg font-medium ml-4 p-6 bg-white/30 h-screen backdrop-blur-sm shadow-lg">
           <li>

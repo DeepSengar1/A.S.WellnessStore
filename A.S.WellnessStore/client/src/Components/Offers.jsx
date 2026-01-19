@@ -6,16 +6,18 @@ const Offers = () => {
     <section>
       <h3 className="font-bold text-4xl my-8">Opening Special Discounts</h3>
       <div className="grid h-120 w-full lg:grid-cols-2  gap-4 my-2">
-        <div className="rounded-xl text-white font-bold text-2xl bg-blue-300 relative overflow-hidden flex items-center px-4">
-          Up to 20% OFF on All Medicine{" "}
+        <div className="rounded-xl text-white font-bold  bg-blue-300 relative overflow-hidden flex items-center px-4">
+          <p className=" stext-center lg:text-left max-w-100 text-3xl">
+            Up to 20% OFF on All Medicine*{" "}
+          </p>
           <Pill
             size={200}
             color={"#fff"}
             className="absolute rotate-80 md:-bottom-10 md:-right-4 invisible md:visible"
           />
         </div>
-        <div className="sm:row-span-2 rounded-xl text-white font-bold text-4xl bg-purple-300  flex items-center px-4 relative overflow-hidden">
-          Up to 30% OFF on Generic Medicines
+        <div className="sm:row-span-2 rounded-xl text-white font-bold text-4xl  bg-purple-300  flex items-center px-4 relative overflow-hidden">
+          <p className="max-w-150">Up to 30% OFF on Generic Medicines*</p>
           <Tablets
             size={200}
             color="#fff"
@@ -29,11 +31,11 @@ const Offers = () => {
         </div>
         <div className="rounded-xl text-white font-bold px-4  text-2xl bg-violet-300  flex items-center relative overflow-hidden">
           10–20% OFF on Wellness & <br />
-          Healthcare Products
+          Healthcare Products*
           <Bandage
             size={150}
             color="#fff"
-            className="absolute invisible sm:visible rotate-60  -right-20 md:top-4 md:right-4"
+            className="absolute invisible md:visible rotate-60  -right-20 md:top-4 md:right-4"
           />
         </div>
       </div>

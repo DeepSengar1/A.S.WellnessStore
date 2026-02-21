@@ -1,5 +1,3 @@
-import React from "react";
-import Navbar from "../Components/Navbar";
 import HeroImg from "../assets/Heroimg.jpg";
 import DeliveryImg from "../assets/delivery.png";
 import Services from "../Components/Services";
@@ -9,8 +7,7 @@ import Footer from "../Components/Footer";
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
-
+     
       {/* Hero Section */}
       <section id="Hero" className="h-96 w-full relative my-2 rounded-2xl overflow-hidden">
         <img

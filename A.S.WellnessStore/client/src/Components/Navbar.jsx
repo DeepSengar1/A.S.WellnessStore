@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/A_S_WellnessStore.png";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -21,10 +22,10 @@ const RegularNav = () => {
   return (
     <ul className="nav-as md:flex gap-2 sm:gap-6 text-lg font-medium ml-4 md:visible hidden ">
       <li>
-        <a href="#Hero">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="#Services">Products</a>
+        <Link to={"/products"}>Products</Link>
       </li>
       <li>
         <a href="#contact">About</a>
@@ -74,19 +75,19 @@ const Hamburger = () => {
             </buthrefn>
           </li>
           <li>
-            <a href="#Hero" onClick={HandleClose}>
+            <Link to="/" onClick={HandleClose}>
               Home
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#Services" onClick={HandleClose}>
-              Products
+              about
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={HandleClose}>
-              About
-            </a>
+            <Link to={"/products"} onClick={HandleClose}>
+              Products
+            </Link>
           </li>
           <li>
             <a href="#contact" onClick={HandleClose}>

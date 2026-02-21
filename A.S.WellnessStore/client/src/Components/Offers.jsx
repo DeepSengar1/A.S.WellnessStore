@@ -8,7 +8,7 @@ const Offers = () => {
       <div className="grid h-120 w-full lg:grid-cols-2  gap-4 my-2">
         <div className="rounded-xl text-white font-bold  bg-blue-300 relative overflow-hidden flex items-center px-4">
           <p className=" stext-center lg:text-left max-w-100 text-3xl">
-            Up to 20% OFF on All Medicine*{" "}
+            Up to 10% OFF on All Medicine*{" "}
           </p>
           <Pill
             size={200}
@@ -17,7 +17,7 @@ const Offers = () => {
           />
         </div>
         <div className="sm:row-span-2 rounded-xl text-white font-bold text-4xl  bg-purple-300  flex items-center px-4 relative overflow-hidden">
-          <p className="max-w-150">Up to 30% OFF on Generic Medicines*</p>
+          <p className="max-w-150">Up to 30% OFF on our products*</p>
           <Tablets
             size={200}
             color="#fff"
